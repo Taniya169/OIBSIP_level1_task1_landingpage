@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        body{
+            background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0EbtAMkvjstpwiT8oSwwiPDJXVpC_KAaHdw&usqp=CAU)no-repeat center center/cover;
+            height: 100vh;
+            width: 100vw;
+        }
+        nav{
+            width: 100%;
+            height: 100%;
+            font-family: sans-serif;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .logo{
+            font-size: 4em;
+            letter-spacing: 2px;
+
+        }
+        .menu a{
+             text-decoration: none;
+             color: white;
+             padding: 10px 20px;
+             font-size: 20px;
+        }
+        .register a{
+            text-decoration: none;
+             color: white;
+             padding: 10px 20px;
+             font-size: 20px;
+             background-color: indianred;
+             border-radius: 8px;
+        }
+        
+        section{
+            font-size: 30px;
+            font-family: sans-serif;
+            /* border: 3px solid rgb(174, 153, 153); */
+            width: 400px;
+            height: 30vh;
+            /* border-radius: 50px; */
+           text-align: center;
+           color: rgb(172, 172, 9);
+           display: block;
+           margin: auto;
+           margin-top: 10%;
+        }
+        section a{
+            color: rgb(10, 9, 10);
+           border: 2px solid rgb(125, 51, 67);
+           border-radius: 20px;
+           text-decoration: none;
+           letter-spacing: 2px;
+           padding: 4px;
+           margin: 5px;
+           background-color: brown;
+        }
+        section a:hover{
+            background-color: white;
+            color: black;
+
+        }
+        .menu a:hover{
+            color: red;
+            background-color: pink;
+          
+           border: 2px solid black;
+           border-radius: 20px;
+        }
+        .register a:hover{
+            border: 2px solid rgb(17, 17, 17);
+            border-radius: 8px;
+            color: red;
+            background:transparent
+        }
+        
+        
+            
+    </style>
+</head>
+<body>
+    <header>
+        
+          <nav>
+            <div class="logo">
+                Food Delight
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Food Items</a>
+                <a href="#">Best offer</a>
+                <a href="#">Contact</a>
+                <a href="#">Your Order</a>
+            </div>
+               <div class="register">
+                <a href="#">Register</a>
+               </div>
+          </nav>
+          <section class="h-text">
+            <span>Enjoy</span>
+            <h1>Your Favourite Food</h1>
+            <br>
+            <a href="#">Order Your Food</a>
+          </section>
+    </header>
+</body>
+</html>
